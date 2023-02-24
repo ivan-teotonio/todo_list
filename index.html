@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/index.js" defer></script>
+    <title>To do App</title>
+</head>
+<body>
+
+    <div id="main-container">
+        
+        <div id="add-container">
+            <h2>Adicione as suas tarefas:</h2>
+            <form action="">
+                <input type="text" name="task" id="task" placeholder="O que você tem para fazer?">
+                <button type="submit" id="add"><i class="fa fa-plus"></i></button>
+            </form>
+        </div>
+
+        <div id="task-container">
+            <h2>Veja suas tarefas</h2>
+            <!-- TEMPLATE -->
+            <div class="task hide">
+                <i class="fa fa-check"></i>
+                <span class="task-title">Título da tarefa</span>
+                <i class="fa fa-trash"></i>
+            </div>
+            <!-- FIM TEMPLATE -->
+            <p id="empty-tasks">Não há tarefas cadastradas.</p>
+        </div>
+
+    </div>
+
+
+    
+</body>
+</html>
