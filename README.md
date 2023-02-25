@@ -2,9 +2,13 @@
 
 # Formulário de cadastramento de tarefas
 
-## Guias de instalação 
+## Guia de instalação 
 
-git clone 
+git clone git@github.com:ivan-teotonio/todo_list.git
+
+## Tecnologias utilizadas
+
+HTML / CSS / Javascript
 
 
 
